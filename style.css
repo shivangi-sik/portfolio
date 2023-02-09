@@ -22,6 +22,7 @@ margin: 2rem 0rem;
 .link {
   padding:0.5rem 1rem;
   text-decoration: none;
+
 }
 .primary-link {
 background-color: var(--primary-color);
@@ -45,7 +46,6 @@ color: white;
   color: white;
   padding: 1rem 0rem;
   border-bottom-left-radius: 1rem;
-border-top-right-radius: 1rem;
 }
 .navigation .link{
   color: white;
@@ -74,6 +74,9 @@ margin: auto;
   font-weight: bold;
   color: var(--grey);
 }
+.heading-color{
+  color: var(--primary-color);
+}
 .section{
   padding: 1rem;
 }
@@ -85,13 +88,16 @@ margin: auto;
   background-color: var(--off-white);
 }
 .footer{
+
 background-color: var(--primary-color);
 color: white;
 text-align: center;
 padding: 2rem;
 border-top-left-radius: 1rem;
-border-bottom-right-radius: 1rem;
 }
 .footer .link{
   color: white;
-}
+ }
+ .footer ul{
+  padding-inline-start: 0px;
+ }

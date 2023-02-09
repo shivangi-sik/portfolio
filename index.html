@@ -1,109 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docum</title>
-    <link href= "style.css" rel= "stylesheet" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home | Shivangi Sikarar</title>
+  <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <h1> Shivangi's Component Library </h1>
-    <p>Shivangi is currently attending neog.camp levelZero and want to make all of her project look good and consistent</p>
-    <h2> @Typography </h2>
-    <h1>this is the biggest heading </h1>
-    <h2>this is the second biggest heading</h2>
-    <p>this is the normal text. Long texts would look like this on your website. this will autofold based on the width of your text</p>
-    <p>this has a <strong>bold</strong> text in it</p>
-    <small>this is comparatively smaller than the normal texts</small>
-    
-    <hr>
-    
-    <h2>@Containers</h2>
-    <h3>@fluid container</h3>
-    <div class="fluid-container">
-      This is a fluid container. It will go to full width of the page with some margins.</div>
-    <h3>@Center container</h3>
-    <div class="center-container">
-      This is the center container. This will go to a certain width and remain in center of the page</div>
-    <hr>
-    <h2>@links</h2>
-    <a class="link primary-link" href="/">Primary link</a>
-    <a class="link secondary-link" href="/">secondary link</a>
-    <hr>
-    <h2>@lists</h2>
-    <h3>@unordered list<em>(without bullets)</em></h3>
-    <p>Bullets will be removed in <strong>CSS</strong></p>
-    <ul class="unordered">
-      <li>Item one</li>
-      <li>Item two</li>
-      <li>Item three</li>
-    </ul>
-    <h3>@Inline lists</h3>
-      <p>creating a list which takes columns instead of rows</p>
-      <ul class="unordered">
-        <li class="unordered-inline">One</li>
-        <li class="unordered-inline">Two</li>
-        <li class="unordered-inline">Three</li>
-      </ul>
-        <h3>@Reverse order lists</h3>
-        <p>Counting will go reverse for this list</p>
-        <ol reversed>
-          <li>One</li>
-          <li>Two</li>
-          <li>Three</li>
-      </ol>
-      
-      <hr>
-      
-      <h2>@Nav</h2>
-      <p> Navigation is used on the top of page and is used to go to different web pages</p>
-      <nav class="navigation Container">
-        <div class="brand">theBrandName</div>
+  <nav class="navigation Container">
+        <div class="brand">Shivangi Sikarwar</div>
           <ul class="align">
-            <li class="unordered-inline"><a href="/" class="link active">home</a></li>
-            <li class="unordered-inline"><a href="/" class="link">products</a></li>
-            <li class="unordered-inline"><a href="/" class="link">about</a></li>
+            <li class="unordered-inline"><a href="index.html" class="link active">home</a></li>
+            <li class="unordered-inline"><a href="projects.html" class="link">projects</a></li>
+            <li class="unordered-inline"><a href="blogs.html" class="link">blogs</a></li>
           </ul>
         </div>
       </nav>
-      
-      <hr>
-      
-      <h2>@Header</h2>
-    <header class="main">
-      <img class="main-img" src="images/img.svg" />
-      <h1 class="main-heading">Heading inside header</h1>
-    </header>
-       
-      <hr>
-
-
-      <h2>@Sections</h2>
-      <section class="section ">
-        <h3>@white section</h3>
-        <div class="center-container">
-        <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
-      </div>
-      </section>
-
+      <header class="main">
+        <img class="main-img" src="images/img.svg" />
+        <h1 class="main-heading">Shivangi Sikarwar <span class="heading-color">The Web Developer</span></h1>
+      </header>
       <section class="section bg ">
-        <h3>@offwhite section</h3>
+        <h3>technologies</h3>
         <div class="center-container">
-        <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+        <p>I'm familiar with HTML, CSS, NodeJS, Git, JavaScript and Web Hosting</p>
       </div>
       </section>
-
-      <hr>
-
-<h2>@footer</h2>
-<footer class="footer"> 
-  <div>This is a small heading inside footer</div>
-  <ul>
-    <li class="unordered-inline"><a class="link" href="/">socialOne</a></li>
-    <li class="unordered-inline"><a class="link" href="/">socialTwo</a></li>
-    <li class="unordered-inline"><a class="link" href="/">socialThree</a></li>
-  </ul>
-</footer>
-    </body>
+      <section class="section ">
+        <h3>projects</h3>
+        <div class="center-container">
+        <p>I like to showcase my work, hence these are some of my works which I hosted online</p>
+        <a class="link primary-link " href="/">View Projects</a>
+      </div>
+      </section>
+      <section class="section bg ">
+        <h3>blogs</h3>
+        <div class="center-container">
+        <p>this is some of my journals I wrote online. You can read them here.</p>
+        <a class="link secondary-link" href="/">Read blogs</a>
+      </section>
+      <footer class="footer"> 
+        <div><span style="font-weight:bold">You can connect me on</span></div>
+        <ul>
+          <li class="unordered-inline"><a class="link" href="/">Github</a></li>
+          <li class="unordered-inline"><a class="link" href="/">Twitter</a></li>
+          <li class="unordered-inline"><a class="link" href="/">LinkedIn</a></li>
+        </ul>
+      </footer>
+</body>
 </html>
